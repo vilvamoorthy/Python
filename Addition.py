@@ -1,5 +1,6 @@
 x = int(input("Enter your First number"))
 y = int(input("Enter your Second number"))
-z = x+y
-print(z)
+def add(a,b):
+    return a+b
+print(add(x,y))
 
