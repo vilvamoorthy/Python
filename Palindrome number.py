@@ -1,4 +1,4 @@
-x = (input("Enter the data"))
+x = (input("Enter the data: "))
 
 reverse = x[ : : -1]
 
