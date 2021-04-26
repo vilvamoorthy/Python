@@ -1,4 +1,4 @@
-# Enter the x and y values:
+# Entering values for x and y:
 x = int(input("Enter your First number: "))
 y = int(input("Enter your Second number: "))
 
