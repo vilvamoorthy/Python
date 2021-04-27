@@ -19,21 +19,23 @@ class student:
 
     def total(self):
         x = (m1 + m2 + m3 + m4 + m5)
+        y = (m1 + m2 + m3 + m4 + m5)/5
         print("The total marks of ", self.name, "is ", x)
+        print("The Average of ", self.name, "is ", y,"%")
         if m1 >= 35 and m2 >= 35 and m3 >= 35 and m4 >= 35 and m5 >= 35:
             print(self.name, " is pass")
         else:
             print(self.name, " is fail")
 
-# Initially Roll_no is None:  
+# Initially Roll_no is None:
 Roll_no = None
-# Using while loop for iteration: 
+# Using while loop for iteration:
 while Roll_no != 0:
-    print("Please enter upto 10")
+    print("Please enter 1 upto 20")
     Roll_no = int(input("Enter the Roll_no: "))
     Roll_no += 1
     # Using if condition for 10 student:
-    if Roll_no == 12:
+    if Roll_no >= 22 or Roll_no <= 1:
         print("------------End of the Mark sheet----------------")
         break
     name = input("Enter the name of the student: ")
