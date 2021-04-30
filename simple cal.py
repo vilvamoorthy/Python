@@ -1,4 +1,4 @@
-print("simple pythone calculator")
+print("simple python calculator")
 a=int(input("enter your first value:"))
 b=int(input("enter your second value:"))
 print(" 1=+",'\n',"2=-",'\n',"3=*",'\n',"4=/",'\n',"5=%",'\n',"6=power")
