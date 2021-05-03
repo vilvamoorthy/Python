@@ -1,6 +1,9 @@
-x = int(input("Enter your First number"))
-y = int(input("Enter your Second number"))
+# Entering values for x and y:
+x = int(input("Enter your First number: "))
+y = int(input("Enter your Second number: "))
+
 def add(a,b):
     return a+b
+
 print(add(x,y))
 
